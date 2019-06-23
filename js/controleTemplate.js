@@ -65,6 +65,7 @@ const resultado = () => {
         let corpoTabela = "", conjuntoPontoDados = ""
 
         for (let i = 0; i < resultadoKMeans.cluster.length; i++) {
+            conjuntoPontoDados = ""
             for (let j = 0; j < resultadoKMeans.cluster[i].length; j++) {
                 if (resultadoKMeans.cluster[i].length == (j - 1)) {
                     conjuntoPontoDados += JSON.stringify(resultadoKMeans.cluster[i][j])
@@ -75,14 +76,19 @@ const resultado = () => {
 
             conjuntoPontoDados.substr(0, conjuntoPontoDados.length - 7)
             corpoTabela += "<tr>" +
-                "<td>" + "Cluster: " + i + "</td>" +
+                "<td>" 
+                    + "Cluster Numero:"+ i + "<br /><br />" +
+                    "Total de Dados:"+ resultadoKMeans.cluster[i].length +
+                "</td>" +
                 "<td>" + conjuntoPontoDados + "</td>" +
             "</tr>"
         }
 
         padrao += "<div class='row'><div class='col-sm-12'>" +
+            "<h4 class='text-center'>Total de dados clusterizados: "+ resultadoKMeans.totalDados +"</h4>" +
+            "<h4 class='text-center'>Total de clusters: "+ resultadoKMeans.totalClusters +"</h4>" +
                 "<div class='table-responsive'>" +
-                    "<table class='table table-hover text-center'>" +
+                    "<table class='table table-hover table-striped text-center'>" +
                         "<caption class='text-center'>Resultado do algoritmo de agrupamento.</caption>" +
                         "<thead class='text-center'>" +
                             "<tr class='text-center'>" +
@@ -101,7 +107,6 @@ const resultado = () => {
         padrao = resultadoTemplate
     }
 
-    console.log(resultadoKMeans)
     document.getElementById("corpo").innerHTML = ""
     document.getElementById("corpo").innerHTML = padrao
 }
