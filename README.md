@@ -18,9 +18,10 @@
 
 ![Imagem da tela home](./img/tela_1.png)
 
+
 4. Logo depois é só clicar no botão <strong>Acionar Algoritmo</strong>, nesse passo o arquivo será preparado e o algoritmo irá rodas.
 
-5 - Logo depois bas clicar no link resultado onde será possível ver várias informações, inclusive os dados agrupado de acorodo com o cluster ao que foi designado, veja a tela de resultados logo abaixo:
+5. Logo depois bas clicar no link resultado onde será possível ver várias informações, inclusive os dados agrupado de acorodo com o cluster ao que foi designado, veja a tela de resultados logo abaixo:
 
 ![Imagem da tela de resultados](./img/tela_2.png)
 
