@@ -8,6 +8,8 @@
 
 - <span align="justify">Os dados são diponibilidados em uma tabela pelo fato de não conseguir achar disponível um gráfico que trabalhe com mais de 3 dimenções;</span>
 
+- <span align="justify">Se abrir o arquivo <strong>yeast.data</strong>, será possível perceber que o mesmo labels no início e no final do arquivo, porém não foi possível trabalhar com ela pois tornaliria o algoritimo muito mais custoso, e isso acaba dificultando visualizar o resultado final no relatório, mas nada que impede de ferificar como os dados foram agrupados, e se estão da forma correta.</span>
+
 #### Modo de usar
 
 1. Baixe o projeto e o descompact;
