@@ -17,3 +17,17 @@
     - Veja a tela inicial do software logo abaixo onde é possível ver os capos para selecionar o arquivo e digitar o numero de cluster
 
 ![Imagem da tela home](./img/tela_1.png)
+
+
+4. Logo depois é só clicar no botão <strong>Acionar Algoritmo</strong>, nesse passo o arquivo será preparado e o algoritmo irá rodas.
+
+5. Logo depois bas clicar no link resultado onde será possível ver várias informações, inclusive os dados agrupado de acorodo com o cluster ao que foi designado, veja a tela de resultados logo abaixo:
+
+![Imagem da tela de resultados](./img/tela_2.png)
+
+
+#### Mais informações
+
+Ainda faltam algumas melhorias que devem ser feitas no algoritmo, e o algoritimo principal está totalmente desvinculado das outros funcionalidade que estão disponíveis no software. O arquivo principal está disponível no seguinte caminho:
+
+- Caminho do arquivo principal do algoritmo dentro da pasta do projeto é: <strong>./js/kMeans.js</strong> 
