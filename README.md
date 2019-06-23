@@ -15,3 +15,5 @@
 3. Na tela inicial selecione o arquivo <strong>yeast.data</strong>, e coloque o numero de clusters que deseja criar, o link do arquivo esta disponível logo abaixo:
     - Link do yeast.data: https://archive.ics.uci.edu/ml/machine-learning-databases/yeast/yeast.data
     - Veja a tela inicial do software logo abaixo onde é possível ver os capos para selecionar o arquivo e digitar o numero de cluster
+
+![Imagem da tela home](./img/tela_1.png)
